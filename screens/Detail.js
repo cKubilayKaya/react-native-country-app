@@ -6,7 +6,7 @@ export default function Detail({ navigation }) {
   function params(param) {
     return navigation.getParam(param);
   }
-
+  console.log("...");
   return (
     <ScrollView style={styles.container}>
       <Text style={styles.name}>{params("name")}</Text>
